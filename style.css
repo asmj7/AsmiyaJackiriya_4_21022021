@@ -26,6 +26,9 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+.container-page{
+    width: 92%;
+}
 
 .bloc {
     width: 100%;
@@ -195,14 +198,26 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    /*color: rgba(0, 0, 0, .5);*/
 }
-
+input, textarea {
+    border: 1.4px solid;
+}
+.info-contact {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
 }
-
+.text-footer{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
 .l-bloc .icon-round,
 .l-bloc .icon-square,
 .l-bloc .icon-rounded,
@@ -417,7 +432,10 @@ nav .caret {
     top: -8px;
     left: 100%;
 }
-
+.logo-img{
+    width: 100px;
+    height: 100px;
+}
 .dropdown-menu .dropmenu-flow-right {
     top: 100%;
     left: 0;
@@ -504,9 +522,14 @@ button {
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
+#form_1{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    /*border-color: rgba(0, 0, 0, .1);*/
     box-shadow: none;
 }
 
@@ -524,7 +547,17 @@ button {
 .scrollToTop span {
     margin-top: 6px;
 }
-
+.description-agence {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.description-realisation {
+    width: 455px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
@@ -542,7 +575,7 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    margin-left: 115px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -651,11 +684,14 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /*color: #575757!important;*/
 }
-
+.img-responsive1, .img-responsive2, .img-responsive3, .img-responsive4 {
+    width: 100%;
+    height: auto;
+}
 .container {
-    max-width: 1000px;
+    max-width: 1162px;;
 }
 
 .hero-bloc-text {
@@ -677,7 +713,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -692,7 +728,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    /*color: #FFFFFF!important;*/
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -723,7 +759,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    /*color: #333333!important;*/
 }
 
 h4 {
@@ -734,9 +770,14 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
+.black-text{
+    color: black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
 .white {
-    color: #FFFFFF!important;
+    color: black;
 }
 
 .portfolio-thumb {
@@ -775,12 +816,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black;
 }
 
 .btn-atomic-tangerine:hover {
@@ -814,15 +855,15 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
