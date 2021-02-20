@@ -690,9 +690,21 @@ a {
     height: auto;
 }
 .container {
-    max-width: 1162px;;
+    max-width: 1235px;
 }
-
+ul {
+    list-style-type: none;
+    margin-top: 0;
+}
+.links-list.one {
+    margin-right: 30px;
+}
+.links-list.two{
+    margin-right : 25px
+}
+a {
+    text-decoration: none;
+}
 .hero-bloc-text {
     font-size: 38px;
 }
