@@ -6,17 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link type="text/css" href="./css/font-awesome.min.css">
+	<link type="text/css" href="./css/et-line.min.css">
 	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
     <title>Agence Web Lyon | Contact</title>
 
     
@@ -45,9 +39,7 @@
 						<a href="index.html">Accueil</a>
 					</li>
 					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
+						<a href="page2.html">page2</a>
 					</li>
 				</ul>
 			</div>
@@ -81,27 +73,27 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<p>
+						<label class="label-margin" for="name">
 							Nom
-						</p>
-						<input id="name" class="form-control" required />
+						</label>
+						<input id="name" type="text" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<p>
+						<label class="label-margin" for="email">
 							Adresse email
-						</p>
-						<input id="email" class="form-control" type="email" required />
+						</label>
+						<input id="email" type="mail" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<p>
+						<label class="label-margin" for="text">
 							Comment nous avez-vous connu ?
-						</p>
-						<input class="form-control" type="email" required id="input_504" />
+						</label>
+						<input class="form-control" type="text" required id="text" />
 					</div>
 					<div class="form-group">
-						<p>
+						<label class="label-margin" for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</p><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" type="text" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -134,22 +126,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social focus-black" aria-label="Twitter" href="https://twitter.com/"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social focus-black" aria-label="Facebook" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social focus-black" aria-label="Dribbble" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social focus-black" aria-label="Instagram" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
@@ -161,7 +153,12 @@
 
 </div>
 <!-- Principal conteneur END -->
-    
+<script href="./js/jquery-2.1.0.min.js" defer></script>
+<script href="./js/bootstrap.min.js" defer></script>
+<script href="./js/blocs.min.js" defer></script>
+<script href="./js/jqBootstrapValidation.js" defer></script>
+<script href="./js/formHandler.js" defer></script>
+
 
 </body>
 </html>
