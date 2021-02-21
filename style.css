@@ -528,7 +528,7 @@ button {
 }
 
 .form-control {
-    /*border-color: rgba(0, 0, 0, .1);*/
+    border-color: black;
     box-shadow: none;
 }
 
@@ -538,7 +538,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -712,7 +712,10 @@ a {
 .hero-bloc-text-sub {
     font-size: 36px;
 }
-
+.row-no-gutters {
+    display: flex;
+    justify-content: space-around;
+}
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -730,6 +733,22 @@ a {
 .navbar-toggle {
     display: none;
 }
+}
+@media (max-width: 630px){
+    .description-agence {
+        width : 400px;
+    }
+}
+@media (max-width: 415px){
+    .description-agence {
+        width : 250px;
+    }
+}
+@media (max-width: 750px) {
+    .row-no-gutters {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 :focus {
     outline: 3px solid white!important;
