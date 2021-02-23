@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+
 	
     <title>Agence Web Lyon | Contact</title>
 
@@ -28,7 +29,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand focus-black" tabindex="0" href="index.html"><img tabindex="-1" src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
+				<a class="navbar-brand focus-black" tabindex="0" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -71,7 +72,7 @@
 	<div class="container bloc-lg">
 		<div id="ancre-contact" class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate >
 					<div class="form-group">
 						<label class="label-margin" for="name">
 							Nom
@@ -82,7 +83,7 @@
 						<label class="label-margin" for="email">
 							Adresse email
 						</label>
-						<input id="email" type="mail" class="form-control" type="email" required />
+						<input id="email" class="form-control" type="email" required/>
 					</div>
 					<div class="form-group">
 						<label class="label-margin" for="text">
@@ -93,7 +94,7 @@
 					<div class="form-group">
 						<label class="label-margin" for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" type="text" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine focus-black" type="submit">
 						Envoyer
@@ -153,11 +154,12 @@
 
 </div>
 <!-- Principal conteneur END -->
-<script href="./js/jquery-2.1.0.js" defer></script>
-<script href="./js/bootstrap.js" defer></script>
-<script href="./js/blocs.js" defer></script>
-<script href="./js/jqBootstrapValidation.js" defer></script>
-<script href="./js/formHandler.js" defer></script>
+
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
+	<script src="./js/jqBootstrapValidation.js" defer></script>
+	<script src="./js/formHandler.js" defer></script>
 
 
 </body>

@@ -245,7 +245,7 @@ input, textarea {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: black;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -697,7 +697,7 @@ ul {
     margin-top: 0;
 }
 .links-list.one {
-    margin-right: 30px;
+    margin-right: 6px;
 }
 .links-list.two{
     margin-right : 25px
