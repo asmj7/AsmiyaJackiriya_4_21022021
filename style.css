@@ -739,6 +739,11 @@ a {
         width : 400px;
     }
 }
+@media screen and (min-width: 330px) and (max-width: 460px){
+    .description-realisation{
+        width: 330px;
+    }
+}
 @media (max-width: 415px){
     .description-agence {
         width : 250px;
